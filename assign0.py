@@ -104,7 +104,7 @@ def reg():
 
 
 print("Welcome")
-print("1. Register\n 2. Login")
+print("1. Register\n2. Login")
 ch = int(input("Enter your option: "))
 if ch == 1:
     reg()
