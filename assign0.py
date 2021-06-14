@@ -67,6 +67,7 @@ def login():
     if uname == stud_profile[2]:
         if lpass == stud_profile[3]:
             print('Login successful')
+            print(stud_profile)
         else:
             print("Login failed")
             ch1 = int(input('\n1. Try again\n2. Forgot password: '))
